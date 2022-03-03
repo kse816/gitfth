@@ -5,5 +5,10 @@ class Test2{
         int sum = 0;
 
         Scanner scan = new Scanner(System.in);
+
+        System.out.println("input num1 >>");
+        num1 = scan.nextInt();
+        System.out.println("input num2 >>");
+        num2 = scan.nextInt();
     }
 }
